@@ -11,3 +11,25 @@ Tópicos a serem abordados:
 1. Git
 2. Virtualenv
 3. Pip 
+
+Para instalar:
+
+'''console
+
+python3 -m venv .venv
+
+source/bin/activate(ubuntu/mac)
+
+.venv\Scripts\activate(windows)
+
+pip install -r requirements-dev.txt
+
+'''
+
+Para conferir qualidade ao código:
+
+'''console
+
+flake8
+
+'''
